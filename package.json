@@ -1,0 +1,22 @@
+{
+  "name": "prueba-fed-intech-mom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "vite build",
+    "start": "vite",
+    "prettier": "prettier \"**/*.{html,mjs,js,jsx,ts,tsx,json,css,scss}\" --write"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "prettier": "^3.2.1",
+    "rimraf": "^5.0.5",
+    "sass": "^1.69.7",
+    "vite": "^5.0.11"
+  }
+}
