@@ -1,0 +1,71 @@
+.tarjeta {
+  display: flex;
+  padding: 40px 32px 32px 32px;
+  gap: 32px;
+  border-radius: 11px;
+  border: 2px solid var(--outline, #e0e6ed);
+  background: #fff;
+  box-shadow: 0px 7px 14px 0px #d3dae2;
+  height: 100%;
+
+  &__img {
+    border-radius: 50%;
+    height: 100px;
+  }
+
+  &__cuerpo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  &__titulo {
+    color: #3b3f5c;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0.14px;
+  }
+
+  &__pestana {
+    color: #3b3f5c;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0.14px;
+    opacity: 0.5;
+    text-transform: capitalize;
+  }
+
+  &__medio {
+    display: grid;
+    gap: 2px;
+    color: #3b3f5c;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0.14px;
+    margin-top: 8px;
+  }
+
+  &__pie {
+    color: #5d5fef;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0.14px;
+    margin-top: auto;
+
+    &:hover {
+      color: #3437f1;
+    }
+  }
+}
