@@ -1,0 +1,20 @@
+.cabeza {
+  display: flex;
+  gap: 16px;
+  margin: 20px 0 20px;
+
+  &__buscar {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0.14px;
+    height: 110%;
+    background-color: #FFFFFF;
+    color: var(--color-text-input-default);
+    border-radius: 8px;
+    padding: 6px 7px 7px 4px;
+    width: 400px;
+  }
+}
